@@ -3,11 +3,13 @@
   import { cubicOut } from 'svelte/easing';
 
   const initialItems = [
-    "Where's the peg?",
-    "Ring of fire",
-    "Dice",
-    "Soldier",
-    "To solder",
+//    "Where's the peg?",
+ //   "Ring of fire",
+ //   "Dice",
+   // "Soldier",
+    //"To solder",
+    "Make a toast",
+    "Accent",
     "Arm wrestle bouncer",
     "Hi everybody",
     "Tied shoe laces",
@@ -16,7 +18,9 @@
     "Leash",
     "Lock of hair",
     "Yes man",
-    "Spank stick"
+    "Spank stick",
+    "Swap phone",
+    "Throwback pic",
   ];
 
   let items = initialItems.map(item => ({ name: item, crossed: false }));
